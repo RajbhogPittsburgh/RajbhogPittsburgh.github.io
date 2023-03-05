@@ -1,0 +1,41 @@
+body {
+		
+		background: #171819 ;
+		color:RGB(240,240, 240) ; 
+}
+
+h1.title {
+		background: #171819 ;
+}
+
+.topbar-menu-container {
+		background: #171819 ;
+		width:673px ;
+		height:50px;
+}
+
+.topbar-menurr {
+		background: #171819 ;
+		color: #ffffff ;
+		height: 70px ;
+		width: 150% ;
+		font-size: 24px ;
+}
+
+a:visited {
+		color: #00ff00;
+		background: #171819 ;
+}
+
+a:active {
+		color: Yellow;
+		background: #171819 ;
+}
+
+a:links {
+		color: White;
+		background: #171819 ;
+}
+
+.menu-table { background-color:#171819; }
+.menu-table td { background-color:#00bb00;border-collapse:collapse; }
