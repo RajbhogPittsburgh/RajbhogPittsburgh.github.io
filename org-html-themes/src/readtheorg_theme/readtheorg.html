@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-03-05 Sun 01:01 -->
+<!-- 2023-03-05 Sun 10:16 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ReadTheOrg style</title>
@@ -201,47 +201,47 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org25c59a0">1. Overview</a></li>
-<li><a href="#org6b1ef77">2. Typography</a>
+<li><a href="#org7b24b5a">1. Overview</a></li>
+<li><a href="#org8345e26">2. Typography</a>
 <ul>
-<li><a href="#org877e5d5">2.1. Headings</a></li>
-<li><a href="#org6fdd8be">2.2. Body</a></li>
-<li><a href="#org8f16927">2.3. Bold</a></li>
-<li><a href="#org7c78abc">2.4. Blockquotes</a></li>
-<li><a href="#org1781250">2.5. Lists</a></li>
+<li><a href="#org1230938">2.1. Headings</a></li>
+<li><a href="#org24f8033">2.2. Body</a></li>
+<li><a href="#orga551e8b">2.3. Bold</a></li>
+<li><a href="#org7975507">2.4. Blockquotes</a></li>
+<li><a href="#orga9771bb">2.5. Lists</a></li>
 </ul>
 </li>
-<li><a href="#org4320f83">3. Media queries</a></li>
-<li><a href="#orgde47970">4. Code</a>
+<li><a href="#org7b40f8b">3. Media queries</a></li>
+<li><a href="#org3df444a">4. Code</a>
 <ul>
-<li><a href="#orga9ec598">4.1. Inline</a></li>
-<li><a href="#org933b144">4.2. Basic block</a></li>
-<li><a href="#orgec446e7">4.3. Sample output</a></li>
+<li><a href="#orgc214e85">4.1. Inline</a></li>
+<li><a href="#org974cdad">4.2. Basic block</a></li>
+<li><a href="#org1521b7f">4.3. Sample output</a></li>
 </ul>
 </li>
-<li><a href="#orgd108516">5. Tables</a>
+<li><a href="#orgba6ac9e">5. Tables</a>
 <ul>
-<li><a href="#org0b2b80e">5.1. Basic example</a></li>
-<li><a href="#org5ce0f31">5.2. Optional table caption</a></li>
-<li><a href="#org15e8f1e">5.3. Striped rows</a></li>
+<li><a href="#org40a0551">5.1. Basic example</a></li>
+<li><a href="#orga48718d">5.2. Optional table caption</a></li>
+<li><a href="#org07a2f5a">5.3. Striped rows</a></li>
 </ul>
 </li>
-<li><a href="#org8d240ba">6. Images</a>
+<li><a href="#orga550dac">6. Images</a>
 <ul>
-<li><a href="#orgf9d494f">6.1. Optional image caption</a></li>
+<li><a href="#org55dd6ca">6.1. Optional image caption</a></li>
 </ul>
 </li>
-<li><a href="#orge37884b">7. Helper classes</a></li>
-<li><a href="#org762a5ca">8. Responsive utilities</a></li>
-<li><a href="#org4b0a8dc">9. CSS</a></li>
-<li><a href="#org09e827f">10. Htmlize</a></li>
-<li><a href="#orgba5c683">11. JS</a></li>
+<li><a href="#org186fab0">7. Helper classes</a></li>
+<li><a href="#org62176d9">8. Responsive utilities</a></li>
+<li><a href="#org15a6836">9. CSS</a></li>
+<li><a href="#org1061c27">10. Htmlize</a></li>
+<li><a href="#org34a4915">11. JS</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org25c59a0" class="outline-2">
-<h2 id="org25c59a0"><span class="section-number-2">1.</span> Overview</h2>
+<div id="outline-container-org7b24b5a" class="outline-2">
+<h2 id="org7b24b5a"><span class="section-number-2">1.</span> Overview</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Get the lowdown on the key pieces of ReadTheOrg's infrastructure, including our
@@ -250,8 +250,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org6b1ef77" class="outline-2">
-<h2 id="org6b1ef77"><span class="section-number-2">2.</span> Typography</h2>
+<div id="outline-container-org8345e26" class="outline-2">
+<h2 id="org8345e26"><span class="section-number-2">2.</span> Typography</h2>
 <div class="outline-text-2" id="text-2">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #9058a2;">@import</span> url(<span style="color: #b585c3;">"https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700"</span>);
@@ -260,8 +260,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org877e5d5" class="outline-3">
-<h3 id="org877e5d5"><span class="section-number-3">2.1.</span> Headings</h3>
+<div id="outline-container-org1230938" class="outline-3">
+<h3 id="org1230938"><span class="section-number-3">2.1.</span> Headings</h3>
 <div class="outline-text-3" id="text-2-1">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">h1,h2,h3,h4,h5,h6,legend</span>{
@@ -309,8 +309,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org6fdd8be" class="outline-3">
-<h3 id="org6fdd8be"><span class="section-number-3">2.2.</span> Body</h3>
+<div id="outline-container-org24f8033" class="outline-3">
+<h3 id="org24f8033"><span class="section-number-3">2.2.</span> Body</h3>
 <div class="outline-text-3" id="text-2-2">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">html</span>{
@@ -351,8 +351,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org8f16927" class="outline-3">
-<h3 id="org8f16927"><span class="section-number-3">2.3.</span> Bold</h3>
+<div id="outline-container-orga551e8b" class="outline-3">
+<h3 id="orga551e8b"><span class="section-number-3">2.3.</span> Bold</h3>
 <div class="outline-text-3" id="text-2-3">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">b,strong</span>{
@@ -362,8 +362,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org7c78abc" class="outline-3">
-<h3 id="org7c78abc"><span class="section-number-3">2.4.</span> Blockquotes</h3>
+<div id="outline-container-org7975507" class="outline-3">
+<h3 id="org7975507"><span class="section-number-3">2.4.</span> Blockquotes</h3>
 <div class="outline-text-3" id="text-2-4">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">blockquote</span>{
@@ -380,8 +380,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org1781250" class="outline-3">
-<h3 id="org1781250"><span class="section-number-3">2.5.</span> Lists</h3>
+<div id="outline-container-orga9771bb" class="outline-3">
+<h3 id="orga9771bb"><span class="section-number-3">2.5.</span> Lists</h3>
 <div class="outline-text-3" id="text-2-5">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">ul,ol,dl</span>{
@@ -451,16 +451,16 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-orgc700f61" class="outline-4">
-<h4 id="orgc700f61"><span class="section-number-4">2.5.1.</span> Unordered</h4>
+<div id="outline-container-orgb49a2d6" class="outline-4">
+<h4 id="orgb49a2d6"><span class="section-number-4">2.5.1.</span> Unordered</h4>
 </div>
 
-<div id="outline-container-orgabf5524" class="outline-4">
-<h4 id="orgabf5524"><span class="section-number-4">2.5.2.</span> Ordered</h4>
+<div id="outline-container-orga07fe50" class="outline-4">
+<h4 id="orga07fe50"><span class="section-number-4">2.5.2.</span> Ordered</h4>
 </div>
 
-<div id="outline-container-orgf91eb23" class="outline-4">
-<h4 id="orgf91eb23"><span class="section-number-4">2.5.3.</span> Description</h4>
+<div id="outline-container-org3f78dc4" class="outline-4">
+<h4 id="org3f78dc4"><span class="section-number-4">2.5.3.</span> Description</h4>
 <div class="outline-text-4" id="text-2-5-3">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">dl dt</span>{
@@ -481,8 +481,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org4320f83" class="outline-2">
-<h2 id="org4320f83"><span class="section-number-2">3.</span> Media queries</h2>
+<div id="outline-container-org7b40f8b" class="outline-2">
+<h2 id="org7b40f8b"><span class="section-number-2">3.</span> Media queries</h2>
 <div class="outline-text-2" id="text-3">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #9058a2;">@media</span> print{
@@ -629,13 +629,13 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-orgde47970" class="outline-2">
-<h2 id="orgde47970"><span class="section-number-2">4.</span> Code</h2>
+<div id="outline-container-org3df444a" class="outline-2">
+<h2 id="org3df444a"><span class="section-number-2">4.</span> Code</h2>
 <div class="outline-text-2" id="text-4">
 </div>
 
-<div id="outline-container-orga9ec598" class="outline-3">
-<h3 id="orga9ec598"><span class="section-number-3">4.1.</span> Inline</h3>
+<div id="outline-container-orgc214e85" class="outline-3">
+<h3 id="orgc214e85"><span class="section-number-3">4.1.</span> Inline</h3>
 <div class="outline-text-3" id="text-4-1">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">code</span>{
@@ -654,8 +654,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org933b144" class="outline-3">
-<h3 id="org933b144"><span class="section-number-3">4.2.</span> Basic block</h3>
+<div id="outline-container-org974cdad" class="outline-3">
+<h3 id="org974cdad"><span class="section-number-3">4.2.</span> Basic block</h3>
 <div class="outline-text-3" id="text-4-2">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">.codeblock-example</span>{
@@ -703,8 +703,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-orgec446e7" class="outline-3">
-<h3 id="orgec446e7"><span class="section-number-3">4.3.</span> Sample output</h3>
+<div id="outline-container-org1521b7f" class="outline-3">
+<h3 id="org1521b7f"><span class="section-number-3">4.3.</span> Sample output</h3>
 <div class="outline-text-3" id="text-4-3">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">.example</span>{
@@ -722,13 +722,13 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-orgd108516" class="outline-2">
-<h2 id="orgd108516"><span class="section-number-2">5.</span> Tables</h2>
+<div id="outline-container-orgba6ac9e" class="outline-2">
+<h2 id="orgba6ac9e"><span class="section-number-2">5.</span> Tables</h2>
 <div class="outline-text-2" id="text-5">
 </div>
 
-<div id="outline-container-org0b2b80e" class="outline-3">
-<h3 id="org0b2b80e"><span class="section-number-3">5.1.</span> Basic example</h3>
+<div id="outline-container-org40a0551" class="outline-3">
+<h3 id="org40a0551"><span class="section-number-3">5.1.</span> Basic example</h3>
 <div class="outline-text-3" id="text-5-1">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">table</span>{
@@ -761,8 +761,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org5ce0f31" class="outline-3">
-<h3 id="org5ce0f31"><span class="section-number-3">5.2.</span> Optional table caption</h3>
+<div id="outline-container-orga48718d" class="outline-3">
+<h3 id="orga48718d"><span class="section-number-3">5.2.</span> Optional table caption</h3>
 <div class="outline-text-3" id="text-5-2">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">table caption</span>{
@@ -775,8 +775,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org15e8f1e" class="outline-3">
-<h3 id="org15e8f1e"><span class="section-number-3">5.3.</span> Striped rows</h3>
+<div id="outline-container-org07a2f5a" class="outline-3">
+<h3 id="org07a2f5a"><span class="section-number-3">5.3.</span> Striped rows</h3>
 <div class="outline-text-3" id="text-5-3">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">table tr:nth-child(2n-1) td</span>{
@@ -792,13 +792,13 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org8d240ba" class="outline-2">
-<h2 id="org8d240ba"><span class="section-number-2">6.</span> Images</h2>
+<div id="outline-container-orga550dac" class="outline-2">
+<h2 id="orga550dac"><span class="section-number-2">6.</span> Images</h2>
 <div class="outline-text-2" id="text-6">
 </div>
 
-<div id="outline-container-orgf9d494f" class="outline-3">
-<h3 id="orgf9d494f"><span class="section-number-3">6.1.</span> Optional image caption</h3>
+<div id="outline-container-org55dd6ca" class="outline-3">
+<h3 id="org55dd6ca"><span class="section-number-3">6.1.</span> Optional image caption</h3>
 <div class="outline-text-3" id="text-6-1">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">.figure p</span>{
@@ -812,8 +812,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-orge37884b" class="outline-2">
-<h2 id="orge37884b"><span class="section-number-2">7.</span> Helper classes</h2>
+<div id="outline-container-org186fab0" class="outline-2">
+<h2 id="org186fab0"><span class="section-number-2">7.</span> Helper classes</h2>
 <div class="outline-text-2" id="text-7">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">.rotate-90</span>{
@@ -836,8 +836,8 @@ approach to better HTML export.
 </div>
 </div>
 
-<div id="outline-container-org762a5ca" class="outline-2">
-<h2 id="org762a5ca"><span class="section-number-2">8.</span> Responsive utilities</h2>
+<div id="outline-container-org62176d9" class="outline-2">
+<h2 id="org62176d9"><span class="section-number-2">8.</span> Responsive utilities</h2>
 <div class="outline-text-2" id="text-8">
 <p>
 Responsive for sidebar:
@@ -902,8 +902,8 @@ Responsive for sidebar:
 </div>
 </div>
 
-<div id="outline-container-org4b0a8dc" class="outline-2">
-<h2 id="org4b0a8dc"><span class="section-number-2">9.</span> CSS</h2>
+<div id="outline-container-org15a6836" class="outline-2">
+<h2 id="org15a6836"><span class="section-number-2">9.</span> CSS</h2>
 <div class="outline-text-2" id="text-9">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">*</span>{
@@ -1640,8 +1640,8 @@ for nice yellow or orange boxes.
 </div>
 </div>
 
-<div id="outline-container-org09e827f" class="outline-2">
-<h2 id="org09e827f"><span class="section-number-2">10.</span> Htmlize</h2>
+<div id="outline-container-org1061c27" class="outline-2">
+<h2 id="org1061c27"><span class="section-number-2">10.</span> Htmlize</h2>
 <div class="outline-text-2" id="text-10">
 <div class="org-src-container">
 <pre class="src src-css"><span style="color: #fc9d00;">.org-bold </span>{ <span style="color: #7c6f64;">/* </span><span style="color: #7c6f64;">bold</span><span style="color: #7c6f64;"> */</span> font-weight: bold; }
@@ -1794,8 +1794,8 @@ for nice yellow or orange boxes.
 </div>
 </div>
 
-<div id="outline-container-orgba5c683" class="outline-2">
-<h2 id="orgba5c683"><span class="section-number-2">11.</span> JS</h2>
+<div id="outline-container-org34a4915" class="outline-2">
+<h2 id="org34a4915"><span class="section-number-2">11.</span> JS</h2>
 <div class="outline-text-2" id="text-11">
 <div class="org-src-container">
 <pre class="src src-js"><span style="color: #b0a8fe;">function</span> <span style="color: #fc9d00;">collapse_toc_elements_on_click</span> (<span style="color: #83a598;">nav_li_a</span>){
@@ -1916,7 +1916,7 @@ window.SphinxRtdTheme = (<span style="color: #b0a8fe;">function</span> (<span st
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Fabrice Niessen</p>
-<p class="date">Created: 2023-03-05 Sun 01:01</p>
+<p class="date">Created: 2023-03-05 Sun 10:16</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
